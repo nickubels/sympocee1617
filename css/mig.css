@@ -218,8 +218,6 @@ a:focus {
   }
 }
 .content-section {
-	background-color: white;
-	background: black;
   padding-top: 100px;
 }
 @media (min-width: 767px) {
@@ -290,4 +288,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.firstblock{
+		background-color: white;
+	color: black;
 }
