@@ -218,11 +218,11 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  /*padding-top: 100px;*/
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    /*padding-top: 250px;*/
   }
 }
 .btn {
@@ -294,4 +294,28 @@ body {
 .firstblock{
 		background-color: white;
 	color: black;
+}
+.custom-header {
+    padding-top: 50px;
+    font-family:'Orbitron';
+    font-size: 60px;
+}
+
+#who-half-img {
+    height:auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url(../img/Landing.png) no-repeat bottom center scroll;
+    height: 800px;
+}
+
+.parallax-window {
+    min-height:400px;
+    background:transparent;
+}
+
+#parallax1 {
+    background: transparent;
 }
