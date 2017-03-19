@@ -266,10 +266,38 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 50px 0;
+  background-color: white;
 }
 footer p {
   margin: 0;
+}
+.footercontent{
+	padding-top: 25px;
+	width: 100%;
+	background-color: black;
+}
+.skyline {
+    height: 150px;
+    margin-bottom: -10px;
+    width 100%;
+    background: url(../img/skyline.svg) bottom no-repeat;
+}
+.footerlogos{
+	margin-bottom: 10px;
+}
+.coverlogo{
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	background: url(../img/cover_logo_white.svg) no-repeat;
+	background-size:contain;
+}
+.ruglogo{
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	background: url(../img/rug.svg) no-repeat;
+	background-size:contain;
 }
 ::-moz-selection {
   text-shadow: none;
@@ -328,3 +356,4 @@ body {
 #parallax1 {
     background: transparent;
 }
+
