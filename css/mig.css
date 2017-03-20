@@ -381,3 +381,6 @@ body {
 	text-decoration: none;
 	color: black !important;
 }
+.whoHidden{
+	display: none;
+}

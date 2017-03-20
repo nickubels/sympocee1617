@@ -26,31 +26,7 @@ $('.navbar-collapse ul li a').click(function() {
     $(this).closest('.collapse').collapse('toggle');
 });
 
-$("#hacker1").bind("click", function() {
-    $("#1").show();
-    $("#2").hide();
-    $("#3").hide();
-    $("#4").hide();
-    
-});
-
-$("#soundA").bind("click", function() {
-    $("#1").hide();
-    $("#2").show();
-    $("#3").hide();
-    $("#4").hide();
-});
-
-$("#belsimpel").bind("click", function() {
-    $("#1").hide();
-    $("#2").hide();
-    $("#3").show();
-    $("#4").hide();
-});
-
-$("#placeholder").bind("click", function() {
-    $("#1").hide();
-    $("#2").hide();
-    $("#3").hide();
-    $("#4").show();
-});
+function whoInfo(id) {
+	$(".whoDiv").addClass("whoHidden");
+	$("#" + id).removeClass("whoHidden");
+}
