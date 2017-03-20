@@ -337,22 +337,40 @@ body {
     font-size: 50px;
 }
 
-#who-half-img {
-    height:auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background: url(../img/Landing.png) no-repeat bottom center scroll;
-    height: 800px;
+.logo {
+	margin-top:15px;
+	height:250px;
+	width:auto;
 }
 
-.parallax-window {
-    min-height:400px;
-    background:transparent;
+#hacker1 {
+	background: url(../img/hacker1.png) no-repeat center;
+	background-size: contain;
 }
 
-#parallax1 {
-    background: transparent;
+#belsimpel {
+	background:url(../img/belsimpel.png) no-repeat center;
+	background-size:contain;
 }
 
+#soundA {
+	background:url(../img/soundA.png) no-repeat center;
+	background-size:contain;
+}
+
+#placeholder {
+	height:250px;
+	width:auto;
+	margin-top:15px;
+	background:url(../img/placeholder_face_img.jpg) no-repeat center;
+	background-size:contain;
+}
+
+.plain-link a {
+	text-decoration: none;
+}
+
+.plain-link a:hover,
+.plain-link a:focus{
+	text-decoration:none !important;
+}
