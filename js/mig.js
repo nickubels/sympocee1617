@@ -48,3 +48,5 @@ function whoInfo(e,id) {
             scrollTop: $("#whoText").offset().top - 50
         }, 1500, 'easeInOutExpo');
 }
+
+var easter_egg = new Konami('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
