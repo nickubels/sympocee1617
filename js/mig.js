@@ -21,9 +21,11 @@ $(function() {
     });
 });
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $(this).closest('.collapse').collapse('toggle');
+// Responsible for closing the navbar on mobile when tapped
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
 });
 
 function whoInfo(id) {
