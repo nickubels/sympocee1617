@@ -15,7 +15,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top-50
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -29,4 +29,8 @@ $('.navbar-collapse ul li a').click(function() {
 function whoInfo(id) {
 	$(".whoDiv").addClass("whoHidden");
 	$("#" + id).removeClass("whoHidden");
+	$('html, body').stop().animate({
+            scrollTop: $("#whoText").offset().top - 50
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
 }
