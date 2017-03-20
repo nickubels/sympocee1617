@@ -155,8 +155,8 @@ a:focus {
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
-  padding: 11px 10px;
+  margin-top: 10px;
+  padding: 13px 10px;
   border: 2px solid white;
   border-radius: 100% !important;
   font-size: 40px;
@@ -214,14 +214,6 @@ a:focus {
   100% {
     -moz-transform: scale(1);
     transform: scale(1);
-  }
-}
-.content-section {
-  /*padding-top: 100px;*/
-}
-@media (min-width: 767px) {
-  .content-section {
-    /*padding-top: 250px;*/
   }
 }
 .btn {
@@ -333,7 +325,6 @@ body {
 }
 .custom-header {
     padding-top: 30px;
-/*     font-family:'Orbitron'; */
     font-size: 40px;
 }
 
