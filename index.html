@@ -16,7 +16,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Fonts from Google -->
-    <link href="https://fonts.googleapis.com/css?family=Cutive|Holtwood+One+SC|Orbitron|Russo+One" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css"><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript">
@@ -27,12 +26,10 @@
     <script src="js/bootstrap.min.js" type="text/javascript">
 </script>
     <script src="js/mig.js" type="text/javascript">
-</script><!-- This is the parallax script found on http://pixelcog.github.io/parallax.js/ -->
-    <script src="/parallax.js-1.4.2/parallax.js" type="text/javascript">
 </script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Navigation -->
 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -50,7 +47,7 @@
 					<li><a class="page-scroll" href="#who">Who?</a></li>
                     <li><a class="page-scroll" href="#location">Where?</a></li>
                     <p class="navbar-btn navbar-right">
-                    <a class="btn btn-default" data-toggle="modal" data-target="#registration">Register now!</a>
+                    <a class="btn btn-default" style="margin-left: 10px;" data-toggle="modal" data-target="#registration">Register now!</a>
                     </p>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -126,25 +123,25 @@
                 <h1 class="custom-header">Who?</h1>
 				<div class="row">
 					<div class="col-md-6">
-						<a href="javascript:whoInfo(1);">
+						<a onclick="whoInfo(event,1);">
 						<div class="logo" id="hacker1"></div>
 						<strong>Hacker One</strong>
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a href="javascript:whoInfo(2);">
+						<a onclick="whoInfo(event,2);">
 						<div class="logo" id="soundA"></div>
 						<strong>Sound Appraisal</strong>
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a href="javascript:whoInfo(3);">
+						<a onclick="whoInfo(event,3);">
                         <div class="logo" id="belsimpel"></div>
 						<strong>Belsimpel</strong>
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a href="javascript:whoInfo(4);">
+						<a onclick="whoInfo(event,4);">
 						<div class="logo" id="placeholder"></div>
 						<strong></strong>
 						</a>
@@ -153,21 +150,22 @@
             </div>
             <div class="col-md-6" id="whoText">
                 <div class="whoDiv whoHidden" id="4">
-					<p>Some text about me goes here</p>
+	                <h2 class="custom-header text-center">TBA</h2>
+					<p class="text-left">Some text about me goes here</p>
 				</div>
                 
                 <div class="whoDiv whoHidden" id="3">
-                    <h2><strong></strong>Belsimpel</strong></h2>
-                    <p>Yet another </p>
+                    <h2 class="custom-header text-center">Belsimpel</h2>
+                    <p class="text-left">Belsimpel started out </p>
                     <p></p>
                 </div>
                 <div class="whoDiv whoHidden" id="2">
-                    <h2><strong>Sound Appraisal</strong></h2>
-                    <p>Sound Appraisal is another company founded in Groningen whose mission statement is the improvement of people's lives and health through the measurement and management of ambient noise. They strive to find out how sound affects people and measure what they call the soundscape of an area. Generally they can be found cooperating with music festivals in the Netherlands.</p>
+                    <h2 class="custom-header text-center">Sound Appraisal</h2>
+                    <p class="text-left">Sound Appraisal is another company founded in Groningen whose mission statement is the improvement of people's lives and health through the measurement and management of ambient noise. They strive to find out how sound affects people and measure what they call the soundscape of an area. Generally they can be found cooperating with music festivals in the Netherlands.</p>
                 </div>
                 <div class="whoDiv" id="1">
-                    <h2><strong>HackerOne</strong></h2>
-                    <p>HackerOne is a vulnerability testing platform founded in Groningen in 2012. It is an open platform built for the express purpose of easing the administrative overhead when companies with sercurity vulnerabilities pay bounties to the hackers who found them. As of the beginning of this year the platform has facilitated the payment of more than $14 million in bounties to around 100,000 hackers.</p>
+                    <h2 class="custom-header text-center">HackerOne</h2>
+                    <p class="text-left">HackerOne is a vulnerability testing platform founded in Groningen in 2012. It is an open platform built for the express purpose of easing the administrative overhead when companies with sercurity vulnerabilities pay bounties to the hackers who found them. As of the beginning of this year the platform has facilitated the payment of more than $14 million in bounties to around 100,000 hackers.</p>
                 </div>
 				
         	</div>
