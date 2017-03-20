@@ -366,9 +366,6 @@ body {
 	background-size:contain;
 }
 
-.plain-link a {
-	text-decoration: none;
-}
 .modal-dialog {
   height: 80%;
 }
@@ -380,8 +377,7 @@ body {
 .eventbrite-ticket-embed {
     min-height: 65vh !important;
 }
-
-.plain-link a:hover,
-.plain-link a:focus{
-	text-decoration:none !important;
+.no-underline{
+	text-decoration: none;
+	color: black !important;
 }
