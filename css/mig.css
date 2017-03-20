@@ -355,4 +355,14 @@ body {
 #parallax1 {
     background: transparent;
 }
+.modal-dialog {
+  height: 80%;
+}
 
+.modal-content {
+  height: auto;
+  min-height: 80%;
+}
+.eventbrite-ticket-embed {
+    min-height: 65vh !important;
+}

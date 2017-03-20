@@ -53,7 +53,7 @@
 					<li><a class="page-scroll" href="#who">Who?</a></li>
                     <li><a class="page-scroll" href="#location">Where?</a></li>
                     <p class="navbar-btn navbar-right">
-                    <a class="btn btn-default" href="https://www.eventbrite.nl/e/symposium-made-in-groningen-registration-33002759141">Register now!</a>
+                    <a class="btn btn-default" data-toggle="modal" data-target="#registration">Register now!</a>
                     </p>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -81,7 +81,7 @@
             <div class="col-md-6">
                 <h3 class="custom-header">What?</h3>
                 <p>High up north lies the beautiful city of Groningen. The home of the University of Groningen and <a href="https://svcover.nl">Study Association Cover</a> for Artificial Intelligence and Computing Science. But Groningen is not only a hotspot for students and tourists, it also is home to many innovative companies and startups. During this symposium on the 18th of May we want to give an exclusive insight into some of these companies. What do they do, and more importantly: how do they use artificial intelligence and computing science in their daily work. Everyone is welcome to join us, but registration is mandatory for the lunch. </p>
-            <a class="btn btn-default btn-lg" href="https://www.eventbrite.nl/e/symposium-made-in-groningen-registration-33002759141">Register now!</a>
+            <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#registration">Register now!</a>
             </div>
 
             <div class="col-md-6">
@@ -161,5 +161,22 @@
 <!--             <p>Copyright &copy; SympoCee 2017</p> -->
         </div>
     </footer>
+    
+<div class="modal fade" tabindex="-1" id="registration" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" style="color:black">Register now</h4>
+      </div>
+      <div class="modal-body">
+        <div style="width:100%; text-align:left;"><iframe src="//eventbrite.nl/tickets-external?eid=33002759141&ref=etckt" class="eventbrite-ticket-embed" frameborder="0" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.nl/">Powered by Eventbrite</a></div></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 </body>
 </html>
