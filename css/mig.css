@@ -348,6 +348,10 @@ body {
 	background:url(../img/soundA.png) no-repeat center;
 	background-size:contain;
 }
+#geodienst {
+	background:url(../img/geodienst.png) no-repeat center;
+	background-size:contain;
+}
 
 #placeholder {
 	height:250px;
